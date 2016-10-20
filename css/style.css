@@ -1,0 +1,44 @@
+.omni-card{
+	width: initial;
+}
+.omni-card__media{
+	text-align:center;
+    background-color: initial;
+}
+.mdl-dialog .close-icon {
+	position: absolute;
+    right: 15px;
+    top: 15px;
+}
+dialog#dialog-message{
+	width: 450px;
+}
+.mdl-navigation__link.mdl-collapse__link-active{
+	color: #ff4081!important;
+}
+.mdl-snackbar-error{
+	background-color: #dd5144;
+}
+.mdl-mini-footer{
+	padding: 0px 16px;
+}
+@media screen and (max-width: 1024px) {
+	.mdl-layout__drawer-button .material-icons {
+		padding-top: 12px;
+	}
+}
+.omni-card__flex {
+    font-weight: 500;
+    margin-right: 16px;
+    padding: 0 0 0 2px;
+    white-space: nowrap;
+    -webkit-box-flex: auto;
+    -webkit-flex: auto;
+    flex: auto;
+    width: 120px;
+}
+.omni-card > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
